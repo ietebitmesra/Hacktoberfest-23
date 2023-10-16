@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.animated {
+    animation: fadeIn 2s;
+}
+
+body {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+    height: 35px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    display: inline-block; /* Added this line */
+}
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    transition: width 0.3s;
+}
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    box-shadow: 0 5px 5px rgba(120, 4, 132, 0.434);
+}
+
+.club-name{
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: white;
+}
+.icon{
+    border-radius: 75px;
+    margin: 8px;
+    padding: 10px 20px 20px 20px;
+    height: 80px;
+    width: 100px;
+    font-size: 20px;
+}
+.icon img{
+    height: 150px;
+}
+.name{
+    text-align: center;
+    font-weight: bolder;
+    margin: 30px;
+    padding: 20px;
+    height: 80px;
+    width: 70%;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text {
+    flex: 1;
+    padding: 20px;
+    letter-spacing: 1px; /* Added this line */
+}
+.about-text h2 {    
+    margin-bottom: 10px; /* Added this line */
+}   
+.about-text p {
+    margin-bottom: 20px; /* Added this line */
+}
+.about-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.events {
+    padding: 20px;
+}
+
+
+
+/* Footer styles */
+.footer {
+    background-color: #1d1d11;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
+.bottom-container{
+    background-color: #1d1d1d;
+    padding-bottom: 45px;
+        padding-top: 25px;
+        line-height: 2;
+        text-align: center;
+    }
+    .footer-link{
+        margin-right: 20px;
+      }
