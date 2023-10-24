@@ -199,3 +199,108 @@ h1 {
     text-align: center;
     color: white;
 }
+
+.message-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* textarea {
+    resize: vertical;
+    max-height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+} */
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 50vh;
+    background: linear-gradient(to right, var(--color-pink), var(--color-purple));
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px var(--color-purple);
+    color: var(--color-light);
+}
+
+.contact{
+    padding-top: 50px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.basic-input{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.message-input{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 15vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#message{
+    outline: none;
+    width: 50vw;
+    height: 15vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+
+}
+#name{
+    outline: none;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+#email{
+    outline: none;
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.submit-button{
+    width: 50vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #ff69b4;
+    color: var(--color-light);
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,32 +1,45 @@
+<!-- FILEPATH: /Users/prateek/WebDev/Hacktoberfest-23/contact.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div id="contact-header"> 
+    <header>
+        <a href="#">
+            <img src="./assets/img/Birla_Institute_of_Technology_Mesra.png" alt="BIT Mesra" id="logo" />
+            <h2>CollegeHUB</h2>
+        </a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class="contact" >
         <h1>Contact Us</h1>
-    </div>
-    <div id="contact-form">
-        <section class="contact-form">
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-    
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-    
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </div>
-    <div>
-    </div>
+        <form action="#" method="post">
+            <div class="contact-card" >
+                <div class="basic-input" >
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="basic-input" >
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="message-input" >
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required ></textarea>
+                    
+                </div>
+                <button class="submit-button"  type="submit">Send</button>
+
+            </div>
+        </form>
+    </main>
 </body>
 </html>
