@@ -172,7 +172,33 @@ h1 {
     color: aliceblue;
 }
 
+#abcd
+{
+    text-align: center;
+    background-color: black;
+}
 
+#text-colour
+{
+    color: white;
+}
+
+#photo
+{
+    text-align: center;
+}
+.center-container {
+    text-align: center;
+}
+#contact-header {
+    background-color: black;
+    text-align: center;
+}
+#contact-form {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
 
 .message-input {
     display: flex;
