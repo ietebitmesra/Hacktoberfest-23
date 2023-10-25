@@ -1,4 +1,5 @@
 
+
 ># HacktoberFest-2023 🏆🤖👩‍💻 
 
 ### 🎯 HacktoberFest - The month long festival for developers
@@ -36,18 +37,19 @@ https://hacktoberfest.com/
 
 ## Steps To follow: 📜
 
-**<span style="color:red">IMPORTANT</span>
-Make sure to visit RULES.md file to know what are the rules and regulation you need to know before contributing to this Project.**
+**<span style="color:red">IMPORTANT</span>**
 
-**(a)Go to the issues tab of this repository and find any issue that you would like to work on. You can also create your own issue.**
+**Make sure to visit [RULES.md](https://github.com/ietebitmesra/Hacktoberfest-23/blob/main/RULES.md) file to know what are the rules and regulation you need to know before contributing to this Project.**
+
+**(a) Go to the [issues tab](https://github.com/ietebitmesra/Hacktoberfest-23/issues) of this repository and find any issue that you would like to work on. You can also [create your own issue](https://github.com/ietebitmesra/Hacktoberfest-23/issues/new).**
 
 **(b) Get yourself assigned to that issue.**
 
 **(c) Open the cloned repository on your local machine.**
 
-**(d) $cd Hacktoberfest-23**
+**(d) Go the folder where you have cloned the respository and enter `cd Hacktoberfest-23` in the terminal**
 
-**(e) Create a separate branch for that issue $git checkout -b issueName/issueNumber**
+**(e) Create a separate branch for that issue  `git checkout -b issueName/issueNumber`**
 
 **(f) Try your best to fix the issue (Good Luck! =))**
 
