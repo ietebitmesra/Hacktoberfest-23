@@ -304,3 +304,14 @@ h1 {
     font-weight: bold;
     cursor: pointer;
 }
+
+#clubSearch {
+    padding: 10px;
+    width: 400px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; 
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
